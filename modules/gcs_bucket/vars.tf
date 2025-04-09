@@ -13,12 +13,6 @@ variable "location" {
   type        = string
 }
 
-variable "admins" {
-  description = "List of admin users or groups"
-  type        = list(string)
-  default     = []
-}
-
 variable "storage_class" {
   description = "The Storage Class of the bucket"
   type        = string

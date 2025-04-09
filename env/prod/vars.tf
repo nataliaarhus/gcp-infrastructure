@@ -9,8 +9,3 @@ variable "gcp" {
     region  = "europe-west1"
   }
 }
-
-variable "GCP_CREDENTIALS" {
-  type      = string
-  sensitive = true
-}

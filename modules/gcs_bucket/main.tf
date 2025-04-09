@@ -7,8 +7,5 @@ module "gcs_bucket" {
   location   = var.location
 
   storage_class = var.storage_class
-
-  set_admin_roles = length(var.admins) > 0 ? true : false
-  admins = var.admins
 }
 
