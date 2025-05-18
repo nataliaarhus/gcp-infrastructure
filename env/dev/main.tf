@@ -2,9 +2,9 @@
 module "dev_gcs_bucket" {
   source = "../../modules/gcs_bucket"
 
-  project_id  = var.project_id
+  project_id  = var.gcp.project_id
   bucket_name = "dev-data-bucket"
-  location    = var.region
+  location    = var.gcp.region
 }
 
 
