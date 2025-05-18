@@ -1,11 +1,11 @@
 variable "gcp" {
   type = object({
-    project = string
-    region  = string
+    project_id  = string
+    region      = string
   })
 
   default = {
-    project = "" # fill in the project name
-    region  = "europe-west1"
+    project_id  = "" # fill in the project name
+    region      = "europe-west1"
   }
 }
