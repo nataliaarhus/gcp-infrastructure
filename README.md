@@ -8,7 +8,7 @@
 4. Ensure you have sufficient permissions
 
 
-### Pre-requisites:
+### Configure the local environment:
 1. Authenticate to gcloud.
 
 ```bash
@@ -24,7 +24,7 @@ It will be recognized by Terraform.
 export GOOGLE_CREDENTIALS="$(cat ~/.gcloud/terraform-examples-code.json)"
 ```
 
-### Deploy the infrastructure:
+### Deploy the infrastructure to GCP:
 
 1. Choose the environment directory.
 
