@@ -4,6 +4,7 @@ module "gcs_bucket" {
 
   project_id = var.project_id
   names      = [var.bucket_name]
+  randomize_suffix   = true
   location   = var.location
 
   storage_class = var.storage_class
