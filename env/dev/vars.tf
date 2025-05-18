@@ -5,7 +5,7 @@ variable "gcp" {
   })
 
   default = {
-    project_id  = "qwiklabs-gcp-03-e38e19a2defb" # fill in the project name
-    region      = "us-east1"
+    project_id  = "" # fill in the project name
+    region      = "europe-west1"
   }
 }
